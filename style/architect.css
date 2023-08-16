@@ -68,10 +68,11 @@ line-height: 26px; /* 162.5% */
     font-size: 20px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
     } 
 .header img{
 display: block;
-width: 1000px;
+width: 100%;
 height: 500px;
 flex-shrink: 0;
 margin-top: 20px;
@@ -319,4 +320,27 @@ color:  #424242;
 text-align: center;
 font-size: 20px;
 font-weight: 400;
+}
+
+
+@media screen and (max-width:576px) {
+    nav{
+        flex-direction: column
+    }
+    nav{
+        padding:20px ;
+    }
+  nav li a{
+    display: flex;
+    font-size: 16px; 
+    font-weight: 600;
+    justify-content: space-between;
+  }
+  .nav-title{
+    font-size: 2rem;
+  }
+.header-title{
+    font-size: 2rem;
+}
+
 }
