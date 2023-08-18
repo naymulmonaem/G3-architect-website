@@ -345,9 +345,12 @@ nav li a{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
 }
+.article-2{
+    /* border: 2px solid black; */
+    padding-left: 0%; 
+}
 
 /* section-2 */
-
 .section-2{
     display: flex;
     flex-direction: column;
@@ -396,12 +399,10 @@ nav li a{
     margin-bottom: 25px;
 }
 
-
 /*section-5  */
 .section-5{
    /* border: 2px solid black; */
    margin-bottom: 50px;
-  
 }
 .section-5 p{
 margin: 0%;
@@ -410,7 +411,6 @@ padding-right: 0px;
  /* border: 2px solid black; */
 
 }
-
 .section-6{
 display: flex;
 flex-direction: column;
@@ -421,10 +421,7 @@ flex-direction: column;
     padding-left: 30%;
 }
 
-
-
 /* footer */
-
 footer{
     width: 100%;
     margin: 0%;
@@ -432,13 +429,4 @@ footer{
 footer p{
     padding: 5px 15px;
 }
-
-
-
-
-
-
-
-
-
 }
